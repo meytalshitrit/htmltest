@@ -1,0 +1,51 @@
+img {
+  border: 3px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 250px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+body{
+	background-color:PaleTurquoise;
+	font-family:Arial;
+	margin: 0;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+   
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:PaleTurquoise;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: PaleTurquoise;
+  color: black;
+}
+.red{
+	color:red;
+}
+.big_font{
+	font-size:32px;
+}
+#special_style{
+	border:2px solid red;
+	background-color:yellow;
+	width:50%;
+}
